@@ -22,7 +22,7 @@ const Navbar = () => {
                         }
 
                     </span>
-                <ul className={`font-semibold flex items-center duration-300 flex-col py-5 px-5 md:p-0 text-[#575b67] bg-opacity-90 top-[12%]  md:bg-transparent w-full left-0 md:w-auto md:flex-row rounded-md  text-sm gap-11 absolute md:static z-50 ${toggle ? "top-0 left-0" : "-top-full duration-500"}`}
+                <ul className={`font-semibold flex items-center duration-300 flex-col py-5 px-5 md:p-0 text-white bg-opacity-90 top-[13%] bg-black md:bg-transparent w-36 md:w-auto md:flex-row rounded-md   gap-6 absolute md:static z-50 ${toggle ? "top-0 left-0" : "-left-full duration-300"}`}
                 >
                     <li className='duration-500 hover:text-primary'>
                         <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/">HOME</NavLink>
