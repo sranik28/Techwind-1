@@ -16,7 +16,7 @@ const Navbar = () => {
                     <Link to="/"><img className='object-cover ' src={logo} alt="" /></Link>
                     {/* <Link to='/'><h1 className='text-3xl font-bold'><span className='text-[#4c5696]'>Dream</span>Pic</h1></Link> */}
                 </div>
-                <ul className={`font-semibold flex duration-300 flex-col py-5 px-5 md:p-0 text-[#575b67] bg-opacity-90 top-[12%]  md:bg-transparent w-full left-0 md:w-auto md:flex-row rounded-md  text-sm gap-11 absolute md:static z-50 ${toggle ? "top-0 left-0" : "-top-full duration-500"}`}
+                <ul className={`font-semibold flex items-center duration-300 flex-col py-5 px-5 md:p-0 text-[#575b67] bg-opacity-90 top-[12%]  md:bg-transparent w-full left-0 md:w-auto md:flex-row rounded-md  text-sm gap-11 absolute md:static z-50 ${toggle ? "top-0 left-0" : "-top-full duration-500"}`}
                 >
                     <li className='duration-500 hover:text-primary'>
                         <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/">HOME</NavLink>
@@ -59,5 +59,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
