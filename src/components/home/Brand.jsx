@@ -9,7 +9,7 @@ import shopify from '../../assets/brand/shopify.png'
 const Brand = () => {
     return (
         <div className='container mb-20'>
-            <div className='grid md:grid-cols-6'>
+            <div className='grid grid-cols-2 gap-[30px] justify-center md:grid-cols-6 ml-11 md:ml-0'>
                 <img className='w-20' src={amazon} alt="" />
                 <img className='w-20' src={google} alt="" />
                 <img className='w-20' src={lenovo} alt="" />
