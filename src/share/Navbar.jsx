@@ -19,24 +19,24 @@ const Navbar = () => {
                 <ul className={`font-semibold flex items-center duration-300 flex-col py-5 px-5 md:p-0  bg-opacity-90 top-[13%] bg-white/80 md:bg-transparent w-full md:w-auto md:flex-row rounded-md   gap-6 absolute md:static z-50 ${toggle ? "top-0 left-0" : "-left-full duration-300"}`}
                 >
                     <li className='duration-500 hover:text-primary'>
-                        <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/">HOME</NavLink>
+                        <NavLink onClick={() => setToggle(false)} className={({ isActive }) => isActive ? "active" : ""} to="/">HOME</NavLink>
                     </li>
                     <li className='duration-500 hover:text-primary'>
-                        <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/landings">LANDINGS</NavLink>
+                        <NavLink onClick={() => setToggle(false)} className={({ isActive }) => isActive ? "active" : ""} to="/landings">LANDINGS</NavLink>
                     </li>
                     <li className='duration-500 hover:text-primary'>
-                        <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/page">PAGES</NavLink>
+                        <NavLink onClick={() => setToggle(false)} className={({ isActive }) => isActive ? "active" : ""} to="/page">PAGES</NavLink>
                         
                     </li>
                     <li className='duration-500 hover:text-primary'>
-                        <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/portfolio">PORTFOLIO</NavLink>
-                    </li>
+                        <NavLink onClick={() => setToggle(false)} className={({ isActive }) => isActive ? "active" : ""} to="/portfolio">PORTFOLIO</NavLink>
+                    </li> 
                     <li className='duration-500 hover:text-primary'>
-                        <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/docs">DOCS
+                        <NavLink onClick={() => setToggle(false)} className={({ isActive }) => isActive ? "active" : ""} to="/docs">DOCS
                         </NavLink>
                     </li>
                     <li className='duration-500 hover:text-primary'>
-                        <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/contact">CONTACT
+                        <NavLink onClick={() => setToggle(false)} className={({ isActive }) => isActive ? "active" : ""} to="/contact">CONTACT
                         </NavLink>
                     </li>
                 </ul>
