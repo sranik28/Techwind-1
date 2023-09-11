@@ -1,10 +1,37 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../layouts/Root";
+import Landings from "../pages/Landings";
+import Page from "../pages/Page";
+import Portfolio from "../pages/Portfolio";
+import Docs from "../pages/Docs";
+import Contact from "../pages/Contact";
 
 const Router = createBrowserRouter([
     {
         path: "/",
-        element: <Root />
+        element: <Root />,
+        children: [
+            {
+                path: "/landings",
+                element: <Landings />
+            },
+            {
+                path: "/page",
+                element: <Page />
+            },
+            {
+                path: "/portfolio",
+                element: <Portfolio />
+            },
+            {
+                path: "/docs",
+                element: <Docs />
+            },
+            {
+                path: "/contact",
+                element: <Contact />
+            },
+        ]
     }
 ]);
 

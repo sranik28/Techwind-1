@@ -21,20 +21,21 @@ const Navbar = () => {
                     <li className='duration-500 hover:text-primary'>
                         <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/">HOME</NavLink>
                     </li>
-                    <li  className='duration-500 hover:text-primary'>
+                    <li className='duration-500 hover:text-primary'>
                         <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/landings">LANDINGS</NavLink>
                     </li>
-                    <li  className='duration-500 hover:text-primary'>
+                    <li className='duration-500 hover:text-primary'>
                         <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/page">PAGES</NavLink>
+                        
                     </li>
-                    <li  className='duration-500 hover:text-primary'>
+                    <li className='duration-500 hover:text-primary'>
                         <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/portfolio">PORTFOLIO</NavLink>
                     </li>
-                    <li  className='duration-500 hover:text-primary'>
+                    <li className='duration-500 hover:text-primary'>
                         <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/docs">DOCS
                         </NavLink>
                     </li>
-                    <li  className='duration-500 hover:text-primary'>
+                    <li className='duration-500 hover:text-primary'>
                         <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/contact">CONTACT
                         </NavLink>
                     </li>
