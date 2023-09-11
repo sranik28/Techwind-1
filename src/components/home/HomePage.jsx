@@ -6,6 +6,7 @@ import ChangeWeb from './ChangeWeb';
 import Development from './Development';
 import Partners from './Partners';
 import OurRates from './OurRates';
+import Question from './Question';
 
 const HomePage = () => {
     return (
@@ -17,6 +18,7 @@ const HomePage = () => {
             <Development />
             <Partners />
             <OurRates />
+            <Question />
         </div>
     );
 };
