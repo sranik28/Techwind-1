@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 .container {
-    @apply max-w-[1240px] mx-auto px-1
+    @apply max-w-[1240px] mx-auto px-3
 }
+/* .container {
+    @apply max-w-[1536px] mx-auto pr-[13rem] pl-[13rem]
+} */
 .active{
     @apply text-primary
 }

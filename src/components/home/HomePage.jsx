@@ -1,9 +1,10 @@
 import React from 'react';
+import Success from './Success';
 
 const HomePage = () => {
     return (
         <div>
-            <h1>this is home</h1>
+            <Success />
         </div>
     );
 };
