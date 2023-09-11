@@ -4,6 +4,8 @@ import Brand from './Brand';
 import HowWork from './HowWork';
 import ChangeWeb from './ChangeWeb';
 import Development from './Development';
+import Partners from './Partners';
+import OurRates from './OurRates';
 
 const HomePage = () => {
     return (
@@ -13,6 +15,8 @@ const HomePage = () => {
             <HowWork />
             <ChangeWeb />
             <Development />
+            <Partners />
+            <OurRates />
         </div>
     );
 };
