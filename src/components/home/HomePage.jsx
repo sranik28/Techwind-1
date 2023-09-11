@@ -2,6 +2,7 @@ import React from 'react';
 import Success from './Success';
 import Brand from './Brand';
 import HowWork from './HowWork';
+import ChangeWeb from './ChangeWeb';
 
 const HomePage = () => {
     return (
@@ -9,6 +10,7 @@ const HomePage = () => {
             <Success />
             <Brand />
             <HowWork />
+            <ChangeWeb />
         </div>
     );
 };
