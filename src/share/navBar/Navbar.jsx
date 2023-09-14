@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 // import { HiMenuAlt2 } from 'react-icons/hi';
 import { AiOutlineClose, AiOutlineSetting, AiOutlineMenu } from 'react-icons/ai';
 import { MdOutlineLocalGroceryStore } from 'react-icons/md';
-import logo from '../assets/logo/logo.png';
+import logo from '../../assets/logo/logo.png';
 
 const Navbar = () => {
 
@@ -25,12 +25,11 @@ const Navbar = () => {
                         <NavLink onClick={() => setToggle(false)} className={({ isActive }) => isActive ? "active" : ""} to="/landings">LANDINGS</NavLink>
                     </li>
                     <li className='duration-500 hover:text-primary'>
-                        <NavLink onClick={() => setToggle(false)} className={({ isActive }) => isActive ? "active" : ""} to="/page">PAGES</NavLink>
-                        
+                        <NavLink onClick={() => setToggle(false)} className={({ isActive }) => isActive ? "active" : ""} to="/page">PAGES</NavLink> 
                     </li>
                     <li className='duration-500 hover:text-primary'>
                         <NavLink onClick={() => setToggle(false)} className={({ isActive }) => isActive ? "active" : ""} to="/portfolio">PORTFOLIO</NavLink>
-                    </li> 
+                    </li>
                     <li className='duration-500 hover:text-primary'>
                         <NavLink onClick={() => setToggle(false)} className={({ isActive }) => isActive ? "active" : ""} to="/docs">DOCS
                         </NavLink>
