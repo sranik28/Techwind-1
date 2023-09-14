@@ -22,7 +22,7 @@ const NavBarD = () => {
                     </div>
                 </div>
 
-                <ul className='md:flex hidden items-center gap-10  font-[poppins] font-medium'>
+                <ul className='md:flex hidden items-center gap-10  font-[nunito] font-medium'>
                     <li className='hover:text-primary'>
                         <NavLink onClick={() => setToggle(false)} className={({ isActive }) => isActive ? "active" : ""} to="/">HOME</NavLink>
                     </li>

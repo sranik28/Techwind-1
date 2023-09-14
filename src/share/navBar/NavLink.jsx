@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import React from 'react';
-import { BsChevronDown, BsChevronUp, BsChevronRight } from 'react-icons/bs';
+import { BsChevronDown, BsChevronUp } from 'react-icons/bs';
+import { BiSolidChevronRight } from 'react-icons/bi';
 import { Link, NavLink } from 'react-router-dom';
 import { links } from './MyLinks';
 
@@ -14,7 +15,7 @@ const Navlink = () => {
             {links.map((link) => (
                 <div>
                     <div className='px-3 text-left md:cursor-pointer group'>
-                        <h2  className='flex items-center justify-between py-4 pr-5 hover:text-primary md:pr-0 group'
+                        <h2 className='flex items-center justify-between py-4 pr-5 hover:text-primary md:pr-0 group'
                             onClick={() => {
                                 headingToggle === link.name ? setHeadingToggle("") : setHeadingToggle(link.name)
                             }}
@@ -61,26 +62,28 @@ const Navlink = () => {
                                                                     ? setSubHeading(mySubLinks.Head)
                                                                     : setSubHeading("")
                                                             }
-                                                            className="flex items-center justify-between py-4 pr-5 hover:text-primary group"
+                                                            className="flex items-center justify-between gap-5 py-4 pr-5 hover:text-primary group"
                                                         >
                                                             {mySubLinks.Head}
 
                                                             <span className="inline text-xl ">
-                                                                {subHeading === mySubLinks.Head ? <BsChevronUp /> : <BsChevronDown />}
+                                                                {subHeading === mySubLinks.Head ? <BiSolidChevronRight /> : <BsChevronDown />}
                                                             </span>
-                                                            
+
                                                         </h1>
                                                     </div>
-                                                    <div className='hidden group-hover:md:block hover:md:block '>
-                                                        <div
-                                                            className={`${subHeading === mySubLinks.Head ? "" : "hidden"
-                                                                }`}
-                                                        >
-                                                            {mySubLinks.subLink.map((slink) => (
-                                                                <li className="text-center ">
-                                                                    <Link to={slink.link}>{slink.name}</Link>
-                                                                </li>
-                                                            ))}
+                                                    <div className='relative'>
+                                                        <div className='absolute bg-white left-32 -top-11'>
+                                                            <div
+                                                                className={`${subHeading === mySubLinks.Head ? "" : "hidden"
+                                                                    }`}
+                                                            >
+                                                                {mySubLinks.subLink.map((slink) => (
+                                                                    <li className="py-3 text-[12px] text-center">
+                                                                        <Link to={slink.link}>{slink.name}</Link>
+                                                                    </li>
+                                                                ))}
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
