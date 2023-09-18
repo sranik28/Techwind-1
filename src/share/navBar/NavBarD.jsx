@@ -71,7 +71,6 @@ const NavBarD = () => {
                         <Button />
                     </div>
                 </ul>
-
             </div>
         </nav>
     );
