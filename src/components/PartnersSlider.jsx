@@ -28,8 +28,6 @@ const PartnersSlider = () => {
                     pagination={{
                         clickable: true,
                     }}
-
-
                     // navigation={true}
 
                     modules={[Autoplay, Navigation]}
