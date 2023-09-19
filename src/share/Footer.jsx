@@ -80,7 +80,7 @@ const Footer = () => {
                                         <MdOutlineKeyboardArrowRight />
                                     </span>
                                     <Link to="/">
-                                        About Us
+                                        Services
                                     </Link>
 
                                 </li>
@@ -89,7 +89,7 @@ const Footer = () => {
                                         <MdOutlineKeyboardArrowRight />
                                     </span>
                                     <Link to="/">
-                                        About Us
+                                       Team
                                     </Link>
 
                                 </li>
@@ -98,7 +98,7 @@ const Footer = () => {
                                         <MdOutlineKeyboardArrowRight />
                                     </span>
                                     <Link to="/">
-                                        About Us
+                                       Pricing
                                     </Link>
 
                                 </li>
@@ -107,7 +107,7 @@ const Footer = () => {
                                         <MdOutlineKeyboardArrowRight />
                                     </span>
                                     <Link to="/">
-                                        About Us
+                                        Project
                                     </Link>
 
                                 </li>
@@ -116,7 +116,7 @@ const Footer = () => {
                                         <MdOutlineKeyboardArrowRight />
                                     </span>
                                     <Link to="/">
-                                        About Us
+                                        Blog
                                     </Link>
 
                                 </li>
@@ -125,7 +125,7 @@ const Footer = () => {
                                         <MdOutlineKeyboardArrowRight />
                                     </span>
                                     <Link to="/">
-                                        About Us
+                                        Login
                                     </Link>
 
                                 </li>
