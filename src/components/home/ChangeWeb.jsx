@@ -3,6 +3,7 @@ import change from '../../assets/change/SEO_SVG.png'
 import { HiChevronRight } from 'react-icons/hi';
 import { faCircleCheck } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import BtnHover from '../hover/BtnHover';
 
 const ChangeWeb = () => {
     return (
@@ -19,7 +20,8 @@ const ChangeWeb = () => {
                         <li className='flex items-center gap-2 my-3 text-slate-400'><span><FontAwesomeIcon icon={faCircleCheck} className='text-primary' /></span><p>Our Talented & Experienced Marketing Agency</p></li>
                         <li className='flex items-center gap-2 my-3 text-slate-400'><span><FontAwesomeIcon icon={faCircleCheck} className='text-primary' /></span><p>Create your own skin to match your brand</p></li>
                     </ul>
-                    <button className='flex items-center gap-1 mt-6 text-lg text-primary'>Find Out More <span> <HiChevronRight className='text-xl'/> </span></button>
+                    {/* <button className='flex items-center gap-1 mt-6 text-lg text-primary'>Find Out More <span> <HiChevronRight className='text-xl'/> </span></button> */}
+                    <BtnHover/>
                 </div>
             </div>
         </div>

@@ -4,6 +4,7 @@ import development from '../../assets/development/Mobile_notification_SVG.png'
 import DevFrom from '../DevFrom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-regular-svg-icons';
+import BtnHover from '../hover/BtnHover';
 
 const Development = () => {
     return (
@@ -18,7 +19,7 @@ const Development = () => {
                         <li className='flex items-center gap-2 my-3 text-slate-400'><span><FontAwesomeIcon icon={faCircleCheck} className='text-primary' /></span><p>Our Talented & Experienced Marketing Agency</p></li>
                         <li className='flex items-center gap-2 my-3 text-slate-400'><span><FontAwesomeIcon icon={faCircleCheck} className='text-primary' /></span><p>Create your own skin to match your brand</p></li>
                     </ul>
-                    <button className='flex items-center gap-1 mt-6 text-lg text-primary'>Find Out More <span> <HiChevronRight className='text-xl' /> </span></button>
+                    <BtnHover />
                 </div>
                 <div>
                     <img className='w-[500px]' src={development} alt="" />
