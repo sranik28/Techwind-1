@@ -1,10 +1,10 @@
-a {
+.hover {
   position: relative;
   text-decoration: none;
   cursor: pointer;
 }
 
-a::before {
+.hover::before {
   content: '';
   position: absolute;
   width: 140px;
@@ -18,7 +18,7 @@ a::before {
   transition: transform .5s ease-in-out;
 }
 
-a:hover::before {
+.hover:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }

@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className='overflow-hidden '>
                     <svg className="w-full h-auto text-[#192132] scale-[2.0] origin-top" viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M720 125L2160 0H2880V250H0V125H720Z" fill="currentColor"></path></svg>
                 </div>
-                <div className='absolute left-0 z-10 w-full pt-10 md:pb-[500px] pb-[1300px] h-full md:top-[131px] top-[33.3px] bg-[#192132]'>
+                <div className='absolute left-0 z-10 w-full pt-10 md:pb-[500px] pb-[1300px] h-full md:top-[146px] top-[33.3px] bg-[#192132]'>
                     <div className='container '>
                         <div className='grid md:grid-cols-12 '>
                             <div className='col-span-4 mb-10'>
