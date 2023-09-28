@@ -4,7 +4,7 @@ import bannerImg from '../../assets/banner/Startup_SVG.png'
 
 const Success = () => {
     return (
-        <div className='container my-40'>
+        <div className='container my-7 md:my-40'>
             <div className='grid gap-[30px] md:grid-cols-2'>
                 <div>
                     <h2 className='mb-5 text-4xl font-semibold leading-normal text-black lg:leading-normal lg:text-5xl '>Our Creativity Is Your <span className='text-primary'>
